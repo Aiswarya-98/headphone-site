@@ -1,0 +1,136 @@
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#navbarNavDropdown {
+  text-align: center;
+  margin: 0;
+}
+
+nav {
+  z-index: 1;
+}
+
+#sticky {
+  position: sticky;
+  top: 0;
+}
+
+#drop {
+  text-align: center;
+}
+.nav-item a {
+  color: rgb(190, 175, 175);
+}
+
+#home {
+  background-image: url("images/music-arrangement-with-black-headphones-with-copy-space.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.home-text {
+  position: absolute;
+  left: 450px;
+}
+
+.home-text h1 {
+  font-size: 60px;
+  color: rgb(222, 221, 221);
+  font-weight: 40px;
+}
+
+.home-text h3 {
+  font-size: 35px;
+  color: rgb(222, 221, 221);
+  opacity: 0.5;
+  font-weight: 40px;
+}
+
+#desc {
+  padding: 80px;
+}
+
+#card {
+  height: 100vh;
+}
+
+#new {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.card1 {
+  margin: 10px;
+  position: relative;
+}
+
+.card1 img {
+  width: 100%;
+}
+
+.card-body1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(128, 128, 128, 0.4);
+  opacity: 0;
+  transition: 0.3s;
+  color: rgb(221, 250, 215);
+}
+
+.card1:hover .card-body1 {
+  opacity: 1;
+}
+
+#buy {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.num h1 {
+  font-size: 70px;
+  font-weight: 40px;
+  color: rgba(107, 105, 105, 0.518);
+}
+
+.s-head {
+  padding: 5px;
+  flex-direction: column;
+  position: absolute;
+  top: 3415px;
+}
+
+.s-head h5 {
+  font-weight: bold;
+}
+
+#buy a {
+  text-decoration: none;
+}
+
+#map {
+  width: 100%;
+}
+
+footer .row {
+  margin-left: 90px;
+  margin-right: 70px;
+}
+
+footer .col {
+  justify-content: right;
+}
